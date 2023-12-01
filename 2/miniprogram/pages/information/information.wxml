@@ -1,0 +1,35 @@
+<view class="main">
+<view class="touxiang">
+<!-- 头像选择 -->
+  <button  class="button" 
+  open-type="chooseAvatar" 
+  bind:chooseavatar="onChooseAvatar"
+  >
+  <image class="image"  src="{{avatarUrl}}" mode="aspectFill" ></image>
+  </button>
+</view>  
+  <view class="formout">
+    <view class="itemIn" style="border-top: rgb(15, 15, 15) solid 3rpx;">
+        <text class="itemLeft" >用户名</text>
+        <input class="itemRight" type="nickname" 	maxlength='12' placeholder="{{username}}" model:value="{{username}}"></input>
+    </view>
+    <!-- <view class="itemIn">
+        <text class="itemLeft">姓名</text>
+        <input class="itemRight" maxlength='5'  placeholder="{{name}}" model:value="{{name}}"></input>
+
+    </view> -->
+    <view class="itemIn" style="border-top: rgb(15, 15, 15) solid 3rpx;">
+        <text class="itemLeft">性别</text>
+        <input class="itemRight" maxlength='5'  placeholder="{{sex}}" model:value="{{sex}}"></input>
+    </view>
+    <view class="itemIn" style="border-top: rgb(15, 15, 15) solid 3rpx; border-bottom: rgb(15, 15, 15) solid 3rpx;">
+        <text class="itemLeft">喜好</text>
+        <input class="itemRight" maxlength='15'  placeholder="{{like}}" model:value="{{like}}"></input>
+    </view>
+
+    <button class="itemBottm" disabled="{{!username.length&&!sex.length&&!name.length&&!like.length&&!avatarUrl.length}}" bind:tap="senddata">保存</button>
+
+  </view>
+
+
+</view>

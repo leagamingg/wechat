@@ -1,0 +1,34 @@
+<!--pages/chat/chat.wxml-->
+<view>
+
+
+
+    <scroll-view class="chatin" scroll-y scroll-into-view="{{toBottom}}" 	scroll-into-view-alignment="end" >
+
+
+      <view class="list" id="item{{index}}" wx:for="{{chat_list}}" id="item{{index}}">
+
+
+            <view class="Buser" wx:if="{{item.whoseid == chatopenid}}" >
+              <image class="image"  mode="aspectFill" src="{{Bimage}}"></image>
+              <text class="text">{{item.chat}}</text>
+            </view>
+
+
+            <view class="Auser" wx:if="{{item.whoseid == openid}}" >
+              <text class="text">{{item.chat}}</text>
+              <image class="image" mode="aspectFill" src="{{myimage}}" ></image>
+            </view>
+
+            <view id="scrollBottom" wx:if="{{index==chat_list.length-1}}" style="height: 10rpx;"></view>
+
+
+      </view>
+
+      <view style="height: 80rpx;"></view>
+    </scroll-view>
+    <view class="put">
+          <textarea  class="text" model:value="{{text}}"  	cursor-spacing="20"></textarea>
+          <button class="button" bind:tap="sendmessage">发送</button>
+    </view>
+</view>

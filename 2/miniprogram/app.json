@@ -1,0 +1,67 @@
+{
+  "pages": [
+    "pages/yonghu/yonghu",
+    
+    "pages/mainpage/mainpage",
+    "pages/message/message",
+    "pages/myself/myself",
+    "pages/adress/adress",
+    "pages/information/information",
+    "pages/chatmod/chatmod",
+    
+    "pages/list2/list2",
+
+    "pages/pet_classify/pet_classify",
+    "pages/bird/bird",
+    "pages/cat/cat",
+    "pages/else/else",
+    "pages/fish/fish",
+    "pages/rat/rat",
+
+    "pages/qwer/qwer",
+    
+    "pages/release/release",
+    "pages/application/application"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "云开发 QuickStart",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2",
+  "lazyCodeLoading": "requiredComponents",
+  "tabBar":{
+    "backgroundColor": "white",
+    "borderStyle":"white",
+    "color": "#3D2730",
+    "selectedColor": "#EC1858",
+    "list":[
+      {
+        "text":"首页",
+        "pagePath":"pages/mainpage/mainpage",
+        "iconPath": "icons/首页.png",
+        "selectedIconPath": "icons/首页 (1).png"
+      },{
+        "text":"动态",
+        "pagePath":"pages/list2/list2",
+        "iconPath": "icons/我的动态.png",
+        "selectedIconPath": "icons/我的动态 (1).png"
+      },
+      {
+        "text":"个人",
+        "pagePath":"pages/myself/myself",
+        "iconPath": "icons/用户_用户.png",
+        "selectedIconPath": "icons/用户_用户 (1).png"
+      },
+      {
+        "text":"消息",
+        "pagePath":"pages/message/message",
+        "iconPath": "icons/消息 (1).png",
+        "selectedIconPath": "icons/消息.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+<navigation-bar title="发布帖子"></navigation-bar>
+
+<scroll-view class="body" scroll-y>
+
+	<view class="background-container">
+	<image class="background-image" src="/image/user_backimage.jpg"></image>
+</view>
+  <view class="large-container">
+    <input class="title-input" placeholder="请输入标题" placeholder-style="color:#888" bindinput="getTitleInputValue" />
+    <textarea class="edit-text" placeholder="今天又有什么新鲜事" placeholder-style="color:#888" bindinput="getContentInputValue" />
+    <view class="edit-img">
+			<image wx:if="{{Post_picture}}" src="{{Post_picture}}" mode="aspectFill"/>
+    <view wx:else class='iconfont icon-plus' catchtap='chooseImageTips'></view>
+    </view>
+  </view>
+
+  <view class="button-container">
+    <button class="button-apply" size="mini" bindtap="postData">发布</button>
+  </view>
+
+  <loading-dialog id="loadingDialog" ></loading-dialog>
+	
+</scroll-view>

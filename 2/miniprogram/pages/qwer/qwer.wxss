@@ -1,0 +1,140 @@
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #aaa;
+}
+.userinfo-avatar {
+  overflow: hidden;
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+.usermotto {
+  margin-top: 200px;
+}
+
+.side1 {
+  border: 10rpx solid rgb(240, 174, 160);
+  box-shadow: 25rpx 25rpx 30rpx rgb(252, 204, 194);
+  border-radius: 30rpx;
+  width: 95%;
+  margin: 10px;
+  padding: 30px;
+  box-sizing: border-box;
+  display: flex; /* 使用 flex 布局 */
+  justify-content: space-between; /* 子元素之间的间距均匀分布 */
+}
+
+.all{
+  border: 10rpx solid rgb(240, 174, 160);
+  border-radius: 30rpx;
+  background:linear-gradient(180deg, rgb(151, 221, 214) 0%, rgba(255, 204, 95, 0) 100%);
+}
+
+.image-container {
+  width: 100%; /* 每个容器占据大约三分之一的宽度 */
+  height: auto;
+}
+
+.image-style {
+  width:100%;
+  height: 250rpx;
+}
+
+
+
+
+
+.side2{
+  border: 10rpx solid rgb(240, 174, 160);
+  box-shadow: 25rpx 25rpx 30rpx rgb(252, 204, 194);
+  border-radius: 30rpx;
+  margin:10px;
+  padding: 25px;
+  height: auto;
+}
+.name{
+  /* border-style:solid; */
+  margin:10px;
+  word-wrap: break-word; /* 允许单词内换行 */
+  white-space: pre-wrap; /* 允许保留换行符并自动换行 */
+}
+#nametext{
+  color:rgb(112, 212, 219);
+}
+.age{
+  /* border-style:solid; */
+  margin:10px;
+}
+.sex{
+  /* border-style:solid; */
+  margin:10px;
+}
+
+.vaccine{
+  /* border-style:solid; */
+  margin:10px;
+}
+.jueyu{
+  /* border-style:solid; */
+  margin:10px;
+}
+.health{
+  /* border-style: solid; */
+  margin: 10px;
+  word-wrap: break-word; /* 允许单词内换行 */
+  white-space: pre-wrap; /* 允许保留换行符并自动换行 */
+}
+.describe{
+  /* border-style:solid; */
+  margin:10px;
+}
+.reason{
+  /* border-style:solid; */
+  margin:10px;
+}
+.text1{
+  border-style:solid;
+  margin:10px;
+  height:100px;
+}
+.text2{
+  border-style:solid;
+  margin:10px;
+  height:100px;
+}
+.text3{
+  border-style:solid;
+  margin:10px;
+  height:100px;
+}
+
+
+.side3 {
+  display: flex;
+  justify-content: space-between;
+  /* border: 10rpx solid rgb(240, 174, 160); */
+  /* box-shadow:25rpx 25rpx 15rpx rgb(252, 204, 194); */
+  border-radius: 30rpx;
+  padding:40px ;
+  margin:15px;
+}
+
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-style:hidden;
+  border-radius: 60%;
+  /* padding: 5px 5px; */
+  /* margin: 0 30px; */
+  height: 120px;
+  /* width: 120px; */
+  background-color: rgb(241, 223, 229); 
+  color: rgba(50, 158, 230, 0.63); /* 文字颜色 */
+}
+

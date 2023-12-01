@@ -1,0 +1,110 @@
+.chatin {
+  height: 1500rpx;
+  width: 100%;
+}
+
+.chatin .list {
+  display: flex;
+  width: auto;
+  height: auto;
+  margin-top: 10rpx;
+  margin-bottom: 60rpx;
+}
+
+.chatin .list .Auser {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 100%;
+  height: auto;
+}
+
+.chatin .list .Auser .text {
+  text-align: start;
+  align-self: center;
+  padding: 10rpx;
+  width: auto;
+  height: auto;
+  margin-left: 100rpx;
+  margin-top: 0rpx;
+  background-color: #62a1db;
+  border-radius: 15rpx;
+}
+
+.chatin .list .Auser .image {
+  height: 100rpx;
+  width: 100rpx;
+  margin-left: 30rpx;
+  margin-right: 10rpx;
+  border-radius: 90rpx;
+  background-color: black;
+  flex-shrink: 0;
+}
+
+.chatin .list .Buser {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
+  height: auto;
+}
+
+.chatin .list .Buser .text {
+  text-align: start;
+  align-self: center;
+  padding: 10rpx;
+  width: auto;
+  height: auto;
+  margin-right: 100rpx;
+  margin-top: 0rpx;
+  background-color: #92be68;
+  border-radius: 15rpx;
+}
+
+.chatin .list .Buser .image {
+  height: 100rpx;
+  width: 100rpx;
+  margin-right: 30rpx;
+  margin-left: 10rpx;
+  border-radius: 90rpx;
+  background-color: black;
+  flex-shrink: 0;
+}
+
+.put {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 0;
+  width: 100%;
+  height: 8%;
+  background-color: rgba(204, 199, 199, 0.87);
+  display: flex;
+  flex-direction: row;
+}
+
+.put .text {
+  display: inline;
+  margin-left: 28rpx;
+  height: 56rpx;
+  width: 480rpx;
+  background-color: white;
+  border-radius: 15rpx;
+  font-size: 32rpx;
+  text-align: start;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  padding: 5rpx;
+}
+
+.put .button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 48rpx;
+  width: 150rpx;
+  background-color: #5a6ca5;
+  font-size: 18rpx;
+}

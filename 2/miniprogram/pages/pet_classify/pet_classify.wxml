@@ -1,0 +1,68 @@
+<view class="allclass">
+    <view class="classify">
+        <view class="container1">
+            <view >宠物分类</view>
+        </view>
+
+        <scroll-view class="container2"scroll-y="{{true}}">
+            <view bindtap="navigateToDogPage">
+                狗<image src="cloud://cloud1-0g0otfoe73630424.636c-cloud1-0g0otfoe73630424-1322519872/dog.png"style="width: 80rpx; height: 80rpx;"></image>
+                
+            </view>  
+            <view bindtap="navigateToCatPage">
+                猫<image src="cloud://cloud1-0g0otfoe73630424.636c-cloud1-0g0otfoe73630424-1322519872/cat.png"style="width: 80rpx; height: 80rpx;"></image>
+            </view>  
+            <view bindtap="navigateToRatPage">
+                鼠<image src="cloud://cloud1-0g0otfoe73630424.636c-cloud1-0g0otfoe73630424-1322519872/rat.png"style="width: 80rpx; height: 80rpx;"></image></view>  
+            <view bindtap="navigateToBirdPage">
+                鸟<image src="cloud://cloud1-0g0otfoe73630424.636c-cloud1-0g0otfoe73630424-1322519872/bird.png"style="width:80rpx; height: 80rpx;"></image></view>  
+            <view bindtap="navigateToFishPage">
+                鱼<image src="cloud://cloud1-0g0otfoe73630424.636c-cloud1-0g0otfoe73630424-1322519872/fish.png"style="width: 80rpx; height: 80rpx;"></image></view>  
+            <view bindtap="navigateToElsePage">
+                其它<image src="cloud://cloud1-0g0otfoe73630424.636c-cloud1-0g0otfoe73630424-1322519872/else.png"style="width: 80rpx; height: 80rpx;"></image></view>  
+        </scroll-view>
+    </view> 
+
+
+
+
+    <scroll-view class="post" scroll-y="{{true}}" >
+        <view class="post1"wx:for="{{item.list}}" wx:key="name">
+            <view class="yourname" >
+                <navigator class="head" url="/pages/chatmod/chatmod?id={{item.usrlist[0]._openid}}" open-type="navigate">
+                    <image src="{{item.usrlist[0].picture}}" style="width: 60rpx; height: 30px;"></image> 
+
+                </navigator>
+                <view class="name">
+                    <text>{{item.usrlist[0].User_name}}</text> 
+                </view>
+                
+            </view>
+            <view class="the_container" bindtap="handleClick" data-_id="{{item._id}}">
+                <view class="container_picture" >
+                    <image src="{{item.picture}}" style="width: 290rpx; height: 150px;"></image>
+                </view>
+                <view class="container_text">
+                    <view>宠物名字：{{item.Pet_name}}</view>
+                    <view>年龄：{{item.Pet_age}}</view>
+                    <view>性别:{{item.Pet_gender}}</view>
+                    <view>主人联系方式：{{item.contact}}</view>
+                    <view>所在地址：{{item.address}}</view>
+                    <view>描述：{{item.Pet_content}}</view>
+                    <view>遗弃原因：{{item.Pet_abandon}}</view>
+                    
+                </view>
+                
+            </view>
+
+        </view>
+        
+        
+    </scroll-view>
+    
+
+
+
+
+</view>
+

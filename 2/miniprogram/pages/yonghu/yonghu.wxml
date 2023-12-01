@@ -1,0 +1,32 @@
+<navigation-bar title="帖子详情"></navigation-bar>
+
+  <scroll-view class="body" scroll-y>
+    <view class="background-container">
+      <!-- <image class="background-image" src="/image/user_backimage.jpg"></image> -->
+    </view>
+		
+    <view class="user-info">
+      <!-- <image class="userimage" src="{{Info.picture}}"></image> -->
+      <navigator  class="userimage" url="/pages/chatmod/chatmod?id={{woh}}" open-type="navigate">
+        <image class="userimage" src="{{Info.picture}}" ></image>
+      </navigator>
+      <text class="username">{{Info.User_name}}</text>
+    </view>
+
+      <view class="post-item">
+
+					<view class="titleCon">
+          	<view class="post-title">{{post.Post_name}}</view>
+					</view>
+          <view class="post-inner">
+						<view class="imageCon">			
+            	<image class="post-image" src="{{post.Post_picture}}" bindtap="showOriginalImage" data-src="{{post.Post_picture}}" mode="widthFix"></image>
+						</view>
+            <view class="contentCon">
+              <view class="post-text">{{post.Post_content}}</view>
+            </view>
+          </view>
+
+      </view>
+
+  </scroll-view>

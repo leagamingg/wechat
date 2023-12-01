@@ -1,0 +1,97 @@
+.main{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height:1500rpx ;
+  background: linear-gradient(180deg, #FFCC5F 0%, rgba(255, 204, 95, 0) 100%);
+  .touxiang
+  {
+    width:100%;
+    height:330rpx;
+    border: rgba(100, 148, 237, 0) solid 2px;
+    .button
+    {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      top: 80rpx;
+      height:160rpx ;
+      width: 160rpx ;
+      padding: 0%;
+      border-radius: 90rpx;
+      .image
+      {
+        height:160rpx;
+        width: 160rpx;
+
+      }
+
+      .image2
+      {
+        /* 头像 */
+
+      box-sizing: border-box;
+
+      position: absolute;
+      width: 125px;
+      height: 123px;
+      left: 143px;
+      top: 45px;
+
+      background: #85C4C9;
+      border: 3px solid #000000;
+
+      }
+    }
+  }
+
+
+  .formout
+  {
+    display: flex;
+    flex-direction: column;
+    height:440px ;
+
+
+    .itemIn
+    {
+      display: flex;
+      flex-direction:row;
+      width: 100%;
+      height:88rpx ;
+      // border-top: rgb(15, 15, 15) solid 6rpx;
+      // border-bottom: rgb(15, 15, 15) solid 6rpx;
+      margin-bottom: 5rpx;
+    
+      .itemLeft
+      {
+        text-align: left;
+        width:130rpx;
+        border: rgba(7, 4, 14, 0) solid 3px;
+        margin: auto 0;
+        margin-left:30rpx;
+  
+      }
+
+      .itemRight
+      {
+        width:400rpx;
+        border: rgba(7, 4, 14, 0) solid 3px;
+        margin: auto 0;
+        margin-left:30rpx;
+
+      }
+
+    }
+
+    .itemBottm
+    {
+      margin-top: 30rpx;
+      background: #fad459;
+      border-radius: 30rpx;
+    }
+
+  }
+}
+
+

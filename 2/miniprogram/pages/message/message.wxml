@@ -1,0 +1,28 @@
+<view class="main">
+
+  <view class="title ">
+    <text class="title_text">消息列表</text>
+  </view>
+
+    <view class="list">
+        <view class="list_item"   wx:for="{{messageArray}}" wx:for-index="index" wx:for-item="item">
+
+          <view class="information">
+              系统消息
+          </view>
+
+          <view class="text">
+            <scroll-view 	scroll-y="true" class="scroll" >
+              <text class="message_text" >{{item}}</text>
+            </scroll-view>
+          </view>
+
+        </view>
+
+    </view>
+
+    <text class="button_text">没有更多了</text>
+
+
+
+</view>

@@ -1,0 +1,53 @@
+<view class="main">
+  <view class="top_item">
+    <image class="toux" src="{{picture}}" mode="aspectFill"></image>
+    <view class="name">
+      <text class="name_text">{{username}}</text>
+    </view>
+
+    <!-- <view class="fans_guan">
+        <view class="inItem">粉丝:{{fans_num}}</view>
+        <view class="inItem">关注:{{guanzhu_num}}</view>
+    </view> -->
+
+
+  </view>
+
+  <!-- <view class="threeItem">
+
+      <navigator class="items" url="/pages/logs/logs">
+        <image class="image" src="/images/我的贴子.svg"></image>
+        <text class="inText">我的贴子</text>
+      </navigator> 
+
+      <navigator class="items" url="/pages/logs/logs">
+        <image class="image" src="/images/我的收藏.svg"></image>
+        <text class="inText">我的收藏</text>
+      </navigator>
+
+      <navigator class="items" url="/pages/logs/logs">
+        <image class="image" src="/images/点赞.svg"></image>
+        <text class="inText">我的点赞</text>
+      </navigator>
+
+  </view> -->
+
+  <view class="infor">
+    <navigator class="inInfor" url="/pages/information/information" >
+      <image class="inforIamge" src="cloud://cloud1-0g0otfoe73630424.636c-cloud1-0g0otfoe73630424-1322519872/个人资料.svg"></image>
+    </navigator>
+
+    <navigator class="inInfor" url="/pages/adress/adress" >
+      <image class="inforIamge" src="cloud://cloud1-0g0otfoe73630424.636c-cloud1-0g0otfoe73630424-1322519872/地址管理.svg"></image>
+    </navigator>
+
+    <navigator class="inInfor" url="/pages/logs/logs">
+      
+      <button class="infor_button" open-type="contact" bindcontact="handleContact">
+        <image class="inforIamge" src="cloud://cloud1-0g0otfoe73630424.636c-cloud1-0g0otfoe73630424-1322519872/客服申诉.svg"></image>
+      </button>
+    </navigator>
+  </view>
+
+</view>
+

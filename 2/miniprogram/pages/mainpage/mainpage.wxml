@@ -1,0 +1,81 @@
+<view class="main">
+  <view class='banner'>
+    <swiper class="swiper" 	
+    indicator-dots  
+    autoplay 	
+    previous-margin="0rpx"
+    next-margin = "-10rpx">
+        <swiper-item class="item">
+          <image class="image" src="https://img0.baidu.com/it/u=33073883,2267850546&fm=253&fmt=auto&app=138&f=JPEG?w=720&h=481"></image>
+        </swiper-item>
+
+        <swiper-item class="item">
+          <image class="image" src="cloud://cloud1-0g0otfoe73630424.636c-cloud1-0g0otfoe73630424-1322519872/1700923289448.png"></image>
+        </swiper-item>
+        
+        <swiper-item class="item">
+          <image class="image" src="https://img0.baidu.com/it/u=3358862243,4072957160&fm=253&fmt=auto&app=138&f=JPEG?w=499&h=333"></image>
+        </swiper-item>
+
+    </swiper>
+
+  </view>
+
+  <view class = 'icons' >
+            <view class="v_item">
+                  <navigator class="navi" url="/pages/pet_classify/pet_classify">
+                      <image class="downImage" src="cloud://cloud1-0g0otfoe73630424.636c-cloud1-0g0otfoe73630424-1322519872/猫.svg" >
+                      </image>
+                      <text class="downText">宠物领养</text>
+                  </navigator>
+                  
+            </view>
+
+
+            <view class="v_item">
+              
+              <navigator class="navi" url="/pages/release/release">
+                    <image class="downImage" src="cloud://cloud1-0g0otfoe73630424.636c-cloud1-0g0otfoe73630424-1322519872/狗狗.svg">
+                    </image>
+                    <text class="downText">宠物寄养</text>
+                  </navigator>
+            </view>
+
+
+  </view>
+
+  <view class='fourText'>
+
+    <navigator class="fourItems" url="/pages/yonghu/yonghu?id={{first_comment._id}}" open-type="navigate">
+      <image class="forImage" mode="aspectFill"  src="{{first_comment.Post_picture}}">
+      </image>
+      <text class="forinText">{{first_comment.Post_content}}</text>
+      <text class="forName">主题:{{first_comment.Post_name}}</text>
+    </navigator>
+
+    <navigator class="fourItems" url="/pages/yonghu/yonghu?id={{second_comment._id}}" open-type="navigate">
+      <image class="forImage" mode="aspectFill" src="{{second_comment.Post_picture}}">
+      </image>
+      <text class="forinText">{{second_comment.Post_content}}</text>
+      <text class="forName">主题:{{second_comment.Post_name}}</text>
+    </navigator>
+
+    <navigator class="fourItems" url="/pages/yonghu/yonghu?id={{third_comment._id}}" open-type="navigate">
+      <image class="forImage" mode="aspectFill" src="{{third_comment.Post_picture}}">
+      </image>
+      <text class="forinText">{{third_comment.Post_content}}</text>
+      <text class="forName">主题:{{third_comment.Post_name}}</text>
+    </navigator>
+
+    <navigator class="fourItems" url="/pages/yonghu/yonghu?id={{forth_comment._id}}" open-type="navigate">
+      <image class="forImage" mode="aspectFill" mode="aspectFit" src="{{forth_comment.Post_picture}}">
+      </image>
+      <text class="forinText">{{forth_comment.Post_content}}</text>
+      <text class="forName">主题:{{forth_comment.Post_name}}</text>
+    </navigator>
+
+
+</view>
+
+</view>
+

@@ -1,0 +1,144 @@
+.main{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height:1700rpx ;
+  background: linear-gradient(180deg, rgb(151, 221, 214) 0%, rgba(255, 204, 95, 0) 100%); 
+  
+  .banner
+  {
+    width: 750rpx;
+    height: 520rpx;
+
+    .swiper
+    {
+      margin-left: 15rpx;
+      margin-top: 30rpx;
+      width: 720rpx;
+      height: 460rpx;
+
+
+      .item
+      {
+        height: 460rpx;
+        width: 720rpx;
+
+
+        .image{
+          width:720rpx ;
+          border-radius: 50rpx;
+        }
+      }
+    }
+  }
+
+  .icons
+  {
+    display: flex;
+    flex-direction:row;
+    justify-content:space-around;
+    margin-left: 10rpx;
+    width: 730rpx;
+    height:304rpx ;
+    // background: rgba(202, 200, 200, 0.158);
+    border: rgb(109, 109, 109) solid 3rpx;
+    border-radius: 60rpx;
+
+    .v_item
+    {
+      display: flex;
+      width: 240rpx;
+      height:240rpx;
+      margin-top: 20rpx;
+
+
+
+      .navi{
+        display: flex;
+        width: 280rpx;
+        height: 280rpx ;
+
+
+        .downImage
+        {
+          width: 240rpx;
+          height: 240rpx ;
+
+        }
+  
+        .downText
+        {
+          position: absolute;
+          margin-top: 250rpx;
+          margin-left: 50rpx;
+          height:30rpx ;
+          width: 140rpx;
+          text-align: center;
+          font-size: 24rpx;
+          font-weight:bolder;
+
+        }
+      }
+
+   
+
+    }
+
+  }
+
+  .fourText
+  {
+    margin-top: 40rpx;
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    height:820rpx;
+    width: 750rpx;
+    border-radius: 60rpx;
+
+    .fourItems
+    {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      height:350rpx ;
+      width: 350rpx;
+      border-radius: 30rpx;
+      border: solid 2rpx rgb(150, 148, 148);
+
+      .forImage
+      {
+        height:220rpx ;
+        width: 350rpx;
+        border-radius: 30rpx;
+      }
+      .forinText
+      {
+
+        overflow:clip;
+        text-align:justify;
+        font-weight: 600;
+        font-size: 20rpx;
+        height:80rpx ;
+        width: 340rpx;
+        color: rgb(0, 0, 0);
+       
+      }
+
+      .forName
+      {
+        overflow:clip;
+        max-lines: 1;
+        margin-top: 10rpx;
+        text-align:end;
+        font-weight: 800;
+        font-size: 20rpx;
+        height:30rpx ;
+        width: 340rpx;
+        color: rgb(145, 150, 150);
+      }
+
+    }
+  }
+}

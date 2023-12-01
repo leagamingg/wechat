@@ -1,0 +1,77 @@
+.main {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  height: 1000rpx;
+  background: linear-gradient(180deg, rgb(151, 221, 214) 0%, rgba(189, 175, 145, 0) 100%);
+}
+
+.main .title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 150rpx;
+  border-bottom: 5rpx solid #272727;
+}
+
+.main .title .title_text {
+  font-size: 60rpx;
+}
+
+.main .list {
+  border-right: black solid 3rpx;
+  width: 100%;
+}
+
+.main .list .list_item {
+  display: flex;
+  flex-direction: row;
+  height: 100rpx;
+  font-size: 36rpx;
+  width: 100%;
+  border-bottom: #272727 solid 5rpx;
+}
+
+.main .list .list_item .information {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150rpx;
+  height: 100%;
+  border-right: 3rpx solid #000000;
+  font-size: 32rpx;
+  font-weight: bolder;
+  color: #1f1c1c;
+}
+
+.main .list .list_item .text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 600rpx;
+  text-align: begin;
+}
+
+.main .list .list_item .text .scroll {
+  height: 100%;
+  display: flex;
+  margin: 5%;
+}
+
+.main .list .list_item .text .scroll .message_text {
+  width: 95%;
+  height: 100%;
+  font-size: smaller;
+  overflow: clip;
+  text-align: center;
+  color: #63615f;
+}
+
+.main .button_text {
+  margin-top: 20rpx;
+  text-align: center;
+  font-weight: 800;
+  color: #757472;
+}

@@ -1,0 +1,64 @@
+<!-- index.wxml -->
+<navigation-bar title="发布宠物" back="{{false}}" color="black" background="#FFF"></navigation-bar>
+<view class="container">
+  <view class="form-group">
+    <text class="label" id="name" name="Pet_type">宠物种类</text>
+    <input  class="input" placeholder="请输入宠物种类" model:value="{{type}}"/>
+  </view>
+  <view class="form-group">
+    <text class="label" id="name" name="Pet_name">宠物姓名</text>
+    <input class="input" placeholder="请输入宠物姓名" model:value="{{name}}"/>
+  </view>
+  <view class="form-group">
+    <text class="label" id="name" name="Pet_age">宠物年龄</text>
+    <input type="text" class="input" placeholder="请输入宠物年龄"  model:value="{{age}}"/>
+  </view>
+  <view class="form-group">
+    <text class="label" id="name" name="Pet_gender">宠物性别</text>
+    <input type="text"  class="input" placeholder="请输入宠物性别"  model:value="{{gender}}"/>
+  </view>
+  <view class="form-group">
+    <text class="label" id="name" name="Pet_vac">是否打过疫苗</text>
+    <input type="text" class="input" placeholder="请填入是或否" model:value="{{vac}}"/>
+  </view>
+  <view class="form-group">
+    <text class="label" id="name" name="Pet_ste">是否绝育</text>
+    <input type="text" class="input" placeholder="请填入是或否"  model:value="{{ste}}"/>
+  </view>
+
+  <view class="form-group">
+    <text class="label" id="name" name="Pet_health">宠物健康</text>
+    <input type="text" id="name" name="Pet_health" class="input" placeholder="请输入宠物的健康状况"  model:value="{{health}}"/>
+  </view>
+  <view class="form-group">
+    <text class="label" id="name" name="Pet_content">宠物描述</text>
+    <input type="text" class="input" placeholder="请输入宠物描述"  model:value="{{content}}"/>
+  </view>
+  <view class="form-group">
+    <text class="label" id="name" name="Pet_ababdon">放弃原因</text>
+    <input type="text" class="input" placeholder="请输入放弃原因"  model:value="{{reason}}"/>
+  </view>
+  <view class="button-group" style="">
+    <text class="label">宠物照片</text>
+    <button  open-type="chooseAvatar" 
+      bind:chooseavatar="onChooseAvatar" >上传</button>
+    <image  class="uploaded-image" src="{{picture}}" mode="aspectFill" wx:if="{{picture}}" model:value="{{picture}}"/>
+  </view>
+  <view class="form-group">
+    <text class="label" id="name" name="name">真实名字</text>
+    <input type="text" class="input" placeholder="请输入您的姓名"  model:value="{{real_name}}"/>
+  </view>
+  <view class="form-group">
+    <text class="label" id="name" name="contact">联系方式</text>
+    <input type="text" class="input" placeholder="请输入您的手机号码"  model:value="{{phone}}"/>
+  </view>
+  <view class="form-group">
+    <text class="label" id="name" name="address">家庭住址</text>
+    <input type="text" class="input" placeholder="请输入您的家庭住址"  model:value="{{address}}"/>
+  </view>
+
+  <view class="button-group">
+      <button   bind:tap="send">提交申请</button>
+      <button  >取消申请</button>
+    </view>
+</view>

@@ -1,0 +1,50 @@
+<view class="allclass">
+    <view class="classify">
+        <view class="container1">
+            <view >宠物分类</view>
+        </view>
+
+        <scroll-view class="container2"scroll-y="{{true}}">
+            <view bindtap="navigateToDogPage">
+                狗<image src="cloud://cloud1-0g0otfoe73630424.636c-cloud1-0g0otfoe73630424-1322519872/dog.png"style="width: 80rpx; height: 80rpx;"></image>
+                
+            </view>  
+            <view bindtap="navigateToCatPage">
+                猫<image src="cloud://cloud1-0g0otfoe73630424.636c-cloud1-0g0otfoe73630424-1322519872/cat.png"style="width: 80rpx; height: 80rpx;"></image>
+            </view>  
+            <view bindtap="navigateToRatPage">
+                鼠<image src="cloud://cloud1-0g0otfoe73630424.636c-cloud1-0g0otfoe73630424-1322519872/rat.png"style="width: 80rpx; height: 80rpx;"></image></view>  
+            <view bindtap="navigateToBirdPage">
+                鸟<image src="cloud://cloud1-0g0otfoe73630424.636c-cloud1-0g0otfoe73630424-1322519872/bird.png"style="width:80rpx; height: 80rpx;"></image></view>  
+            <view bindtap="navigateToFishPage">
+                鱼<image src="cloud://cloud1-0g0otfoe73630424.636c-cloud1-0g0otfoe73630424-1322519872/fish.png"style="width: 80rpx; height: 80rpx;"></image></view>  
+            <view bindtap="navigateToElsePage">
+                其它<image src="cloud://cloud1-0g0otfoe73630424.636c-cloud1-0g0otfoe73630424-1322519872/else.png"style="width: 80rpx; height: 80rpx;"></image></view>  
+        </scroll-view>
+    </view> 
+
+
+
+
+    <view class="post"  >
+        <view class="post1">
+            
+            <view class="the_container">
+                <view class="container_text">
+                    <view>什么都没有呢</view>
+                    <view ><image src="cloud://cloud1-0g0otfoe73630424.636c-cloud1-0g0otfoe73630424-1322519872/cry.png"style="width: 150rpx; height: 120rpx;"></image></view>
+                    
+                </view>
+                
+            </view>
+
+        </view>
+        
+        
+    </view>
+    
+
+
+
+
+</view>

@@ -1,0 +1,6 @@
+<view class="loading-dialog" wx:if="{{visible}}" >
+
+    <image class="loading-icon" src="/image/loading2.gif"></image>
+    <text class="loading-text">正在发送...</text>
+
+</view>

@@ -1,0 +1,63 @@
+<form bindsubmit="">
+  
+<view class="all">
+  <view class="side1">
+  <view class="image-container">
+    <image src="{{imageUr1s}}" mode="aspectFit" class="image-style" />
+  </view>
+  <!-- <view class="image-container">
+    <image src="{{imageUr2s}}" mode="aspectFit" class="image-style" />
+  </view>
+  <view class="image-container">
+    <image src="{{imageUr3s}}" mode="aspectFit" class="image-style" />
+  </view> -->
+</view>
+
+
+<view class="side2">
+  <view class="name">
+    <text id="nametext">宠物姓名:{{ returnName }}</text>
+  </view>
+  <view class="age">
+    <text id="nametext">宠物年龄:{{ returnAge }}</text>
+  </view>
+  <view class="sex">
+    <text id="nametext">宠物性别:{{ returnSex }}</text>
+  </view>
+ 
+   
+    <view class="jueyu">
+      <text id="nametext">是否绝育:{{returnJueyu }}</text>
+  </view>
+  
+  <view>
+    <view class="describe">
+      <text id="nametext">宠物描述:{{ returnDescribe }}</text>
+      <!-- <view>{{ returnDescribe }}</view> -->
+    </view>
+  </view>
+  <view>
+    <view class="reason">
+      <text id="nametext">放弃原因:{{ returnReason }}</text>
+      <!-- <view>{{ returnReason }}</view> -->
+    </view>
+  </view>
+  <view class="vaccine">
+      <text id="nametext">是否打过疫苗:{{ returnVaccine }}</text>
+  </view>
+  <view>
+    <view class="health">
+      <text id="nametext">详细健康状况:{{ returnHealth }}</text>
+      <!-- <view>{{ returnHealth }}</view> -->
+    </view>
+  </view>
+</view>
+
+
+<view class="side3">
+  <button class="button" bindtap="redirectToapplicationpage">领养申请</button>
+</view>
+</view>
+
+
+</form>

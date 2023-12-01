@@ -1,0 +1,16 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "560605",
+      "name": "del2",
+      "font_class": "del2",
+      "unicode": "e60d",
+      "unicode_decimal": 58893
+    }
+  ]
+}

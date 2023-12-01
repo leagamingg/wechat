@@ -1,0 +1,92 @@
+@import '../../lib/iconfont/iconfont.wxss';
+
+.body {
+  height: 90vh;
+  background: linear-gradient(180deg, rgb(151, 221, 214) 0%, rgba(189, 175, 145, 0) 100%);
+}
+
+.large-container {
+  border: 1rpx solid #000;
+  padding: 20rpx;
+}
+
+.background-image {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  object-fit: cover;
+}
+
+.title-input {
+  width: 100%;
+  height: 40rpx;
+  border: none;
+  border-bottom: 1rpx solid #000;
+  margin-bottom: 20rpx;
+  font-size: 32rpx;
+  line-height: 40rpx;
+  color: #353535;
+}
+
+.edit-text {
+  height: 250rpx;
+  overflow-y: scroll;
+  font-size: 32rpx;
+  line-height: 40rpx;
+  color: #353535;
+}
+
+.edit-img {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: space-between;
+}
+
+.edit-img image {
+  width: 180rpx;
+  height: 180rpx;
+  margin: 0 20rpx 20rpx 0;
+}
+
+.icon-plus {
+  width: 180rpx;
+  height: 180rpx;
+  background-color: rgba(87, 107, 149, 0.062);
+  opacity: 0.5;
+  font-size: 40rpx;
+  color: #888;
+  line-height: 200rpx;
+  text-align: center;
+}
+
+.iconfont {
+  color: #888;
+}
+
+.placeholder {
+  color: #000;
+  text-align: left;
+  margin-right: 20rpx;
+}
+
+
+
+.button-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 40rpx;
+}
+
+.button-apply {
+  padding: 20rpx 40rpx;
+  font-weight: 500;
+  font-size: 200%;
+  text-align: center;
+  color: white;
+  background-color: lightblue;
+  border: 2rpx solid black;
+  border-radius: 20px;
+}

@@ -1,0 +1,119 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 1700rpx;
+  background: linear-gradient(180deg, rgb(151, 221, 214) 0%, rgba(189, 175, 145, 0) 100%);
+}
+
+.main .banner {
+  width: 750rpx;
+  height: 520rpx;
+}
+
+.main .banner .swiper {
+  margin-left: 15rpx;
+  margin-top: 30rpx;
+  width: 720rpx;
+  height: 460rpx;
+}
+
+.main .banner .swiper .item {
+  height: 460rpx;
+  width: 720rpx;
+}
+
+.main .banner .swiper .item .image {
+  width: 720rpx;
+  border-radius: 50rpx;
+}
+
+.main .icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-left: 10rpx;
+  width: 730rpx;
+  height: 304rpx;
+  border: 5rpx solid rgb(240, 174, 160);
+  border-radius: 60rpx;
+}
+
+.main .icons .v_item {
+  display: flex;
+  width: 240rpx;
+  height: 240rpx;
+  margin-top: 20rpx;
+}
+
+.main .icons .v_item .navi {
+  display: flex;
+  width: 280rpx;
+  height: 280rpx;
+}
+
+.main .icons .v_item .navi .downImage {
+  width: 240rpx;
+  height: 240rpx;
+}
+
+.main .icons .v_item .navi .downText {
+  position: absolute;
+  margin-top: 250rpx;
+  margin-left: 50rpx;
+  height: 30rpx;
+  width: 140rpx;
+  text-align: center;
+  font-size: 24rpx;
+  font-weight: bolder;
+}
+
+.main .fourText {
+  margin-top: 40rpx;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  height: 820rpx;
+  width: 750rpx;
+  border-radius: 60rpx;
+}
+
+.main .fourText .fourItems {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 350rpx;
+  width: 350rpx;
+  border-radius: 30rpx;
+  border: solid 10rpx rgb(240, 174, 160);
+  box-shadow: 5rpx 5rpx 10rpx rgb(240, 174, 160);
+}
+
+.main .fourText .fourItems .forImage {
+  height: 220rpx;
+  width: 350rpx;
+  border-radius: 30rpx;
+}
+
+.main .fourText .fourItems .forinText {
+  overflow: clip;
+  text-align: justify;
+  font-weight: 600;
+  font-size: 20rpx;
+  height: 80rpx;
+  width: 340rpx;
+  color: black;
+}
+
+.main .fourText .fourItems .forName {
+  overflow: clip;
+  max-lines: 1;
+  margin-top: 10rpx;
+  text-align: end;
+  font-weight: 800;
+  font-size: 20rpx;
+  height: 30rpx;
+  width: 340rpx;
+  color: #919696;
+}

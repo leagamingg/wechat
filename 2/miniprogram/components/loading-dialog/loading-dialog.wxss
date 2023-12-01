@@ -1,0 +1,24 @@
+.loading-dialog {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 20rpx;
+  border-radius: 10rpx;
+  color: #fff;
+}
+
+.loading-icon {
+  width: 80rpx;
+  height: 80rpx;
+  animation: rotate 1s linear infinite;
+}
+
+.loading-text {
+  margin-top: 10rpx;
+}

@@ -1,0 +1,112 @@
+.allclass {
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid #efefef;
+    width: 750rpx;
+    height: 900px;
+    background: linear-gradient(180deg, rgb(151, 221, 214) 0%, rgba(255, 204, 95, 0) 100%);
+}
+
+.classify {
+    border: 1rpx solid #efefef;
+    width: 150rpx;
+    height: 900px;
+}
+.container1 view{
+    border: 1rpx solid #efefef;
+    width: 150rpx;
+    height: 70px;
+    text-align: center;
+    line-height: 70px;
+}
+
+.container2 view{
+    width: 150rpx;
+    height: 200px;
+    text-align: center;
+    line-height: 200px;
+}
+
+.container2 view:nth-child(1){
+    border: 1rpx solid #efefef36;
+}
+.container2 view:nth-child(2){
+    border: 1rpx solid #efefef40;
+}
+.container2 view:nth-child(3){
+    border: 1rpx solid #efefef36;
+}
+.container2 view:nth-child(4){
+    border: 1rpx solid #efefef36;
+}
+.container2 view:nth-child(5){
+    border: 1rpx solid #efefef36;
+}
+.container2 view:nth-child(6){
+    border: 1rpx solid #efefef36;
+}
+
+.container2{
+    border: 1rpx solid #efefef;
+    width: 150rpx;
+    height: 830px;
+    
+}
+
+.post {
+    border: 1rpx solid #efefef;
+    width: 600rpx;
+    height: 900px;
+}
+.post1{
+    border: 10rpx solid rgb(240, 174, 160);
+    padding:15rpx;
+    width: 555rpx;
+    height: 200px;
+    border-radius: 30rpx;
+    box-shadow: 25rpx 25rpx 30rpx rgb(240, 174, 160);
+}
+.yourname{
+    border: 1rpx solid #efefef;
+    width: 250rpx;
+    height: 40px;
+    margin-bottom: 10px;
+    display: flex;
+}
+.head{
+    border: 1rpx solid #efefef;
+    width: 60rpx;
+    height: 30px;
+    margin-top: 3px;
+    margin-left: 10rpx;
+}
+.name{
+    border: 1rpx solid #efefef;
+    width: 150rpx;
+    height: 30px;
+    margin-top: 3px;
+    margin-left: 10rpx;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.the_container{
+    width: 550rpx;
+    height: 150px;
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+
+}
+.container_text{
+    width: 180rpx;
+    height: 180px;
+    margin: auto;
+    margin-bottom: 10px;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    color:rgb(240, 174, 160);
+}
+

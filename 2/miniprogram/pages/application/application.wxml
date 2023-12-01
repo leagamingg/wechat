@@ -1,0 +1,37 @@
+<!-- index.wxml -->
+<view class="container">
+  <view class="header">
+    <text class="title">宠物领养申请</text>
+  </view>
+  <form bindsubmit="buss">
+    <view class="form-group">
+      <text class="label">真实姓名</text>
+      <input type="text" id="name" name="name" required model:value="{{real_name}}" />
+    </view>
+
+    <view class="form-group">
+      <view class="label">联系方式</view>
+      <input type="text" id="contact" name="contact" required model:value="{{contact}}"/>
+    </view>
+
+    <view class="form-group">
+      <view class="label">住址</view>
+      <input type="text" id="address" name="address" required model:value="{{adress}}"/>
+    </view>
+
+    <view class="form-group">
+      <view class="label">家庭环境</view>
+      <textarea id="environment" name="environment" required model:value="{{environment}}"></textarea>
+    </view>
+
+    <view class="form-group">
+      <view class="label">领养原因</view>
+      <textarea id="reason" name="reason" required model:value="{{reason}}"></textarea>
+    </view>
+
+    <view class="button-group">
+      <button type="primary" formType="submit" bind:tap="send">提交申请</button>
+      <button type="primary" formType="cancel" bind:tap="redirectTopet_classify">取消申请</button>
+    </view>
+  </form>
+</view>

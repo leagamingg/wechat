@@ -1,0 +1,14 @@
+<view class="main">
+
+
+<!-- <image class="image" src="cloud://cloud1-0g0otfoe73630424.636c-cloud1-0g0otfoe73630424-1322519872/image 1.png"> 
+</image> -->
+<text class="title" >地址管理</text>
+  <textarea class="input"  
+  maxlength="100" 
+  bindinput="bindKeyInput" 
+  placeholder="请在这里输入你的地址信息" 
+  model:value="{{adress}}"/>
+<text class="input2">不要超过100个字符,当前已输入{{adress.length}}个字</text>
+<button class="button" plain="true" bind:tap="senddata">确认</button>
+  </view>
